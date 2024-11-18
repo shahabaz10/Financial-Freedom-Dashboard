@@ -1,23 +1,35 @@
-Features:
-Income & Expense Tracking: Users can monitor their earnings and expenditures with bar charts, line plots, and cumulative frequency charts.
-Savings & Net Worth: Real-time visualization of savings and net worth.
-Time-based Analysis: Allows users to filter data based on various time periods (e.g., monthly, yearly).
-Role-Based Access Control (RBAC): Secure data access with Row-Level Security (RLS), ensuring users see only their data, while admins have access to aggregate and comparative data.
-Excel Data Integration: The dashboard integrates and transforms data from multiple Excel files, making it suitable for detailed analysis.
-Technologies Used:
-Power BI Desktop
-Excel
-DAX (Data Analysis Expressions)
-Row-Level Security (RLS)
-Setup Instructions:
-Clone or download this repository.
-Open the Power BI file (.pbix) in Power BI Desktop.
-Connect to your data sources and configure any necessary transformations.
-Apply Row-Level Security (RLS) for managing user roles and access.
-Publish the dashboard to the Power BI service for online access and sharing.
-Usage:
-Admins can view and compare the financial data of all users.
-Users can view and track their own financial data.
-Use the slicers to filter data over different time periods for customized insights.
-Contribution:
-Feel free to contribute by opening issues or submitting pull requests. Please ensure that any contributions follow the project’s coding and formatting guidelines.
+# Financial Freedom Dashboard
+
+## Description
+The **Financial Freedom Dashboard** is a comprehensive Power BI tool designed to assist users in managing and analyzing their personal finances. It helps track key financial data such as income, expenses, savings, and net worth, with an intuitive and interactive interface that allows for time-based analysis. The dashboard uses visualizations such as bar graphs, line charts, and cumulative frequency charts to present financial insights, helping users make data-driven decisions towards financial independence.
+
+## Features
+- **Income & Expense Tracking:** View income, expenses, and savings over different time periods through bar charts and line graphs.
+- **Net Worth Analysis:** Track the overall net worth in real-time with dynamic visualizations.
+- **Role-Based Access Control (RBAC):** Users can only view their own data, while admins can access data across all users. This is implemented using Row-Level Security (RLS).
+- **Time-based Insights:** Filter and analyze financial data over customized time periods (monthly, yearly, etc.).
+- **Excel Data Integration:** Transform multiple Excel datasets into a unified format for detailed analysis.
+
+## Technologies Used:
+- **Power BI Desktop**
+- **Excel**
+- **DAX (Data Analysis Expressions)**
+- **Row-Level Security (RLS)**
+
+## Setup Instructions:
+1. Clone or download the repository.
+2. Open the Power BI file (`.pbix`) in Power BI Desktop.
+3. Connect to your data sources and apply necessary transformations.
+4. Set up Row-Level Security (RLS) to manage user roles and data access.
+5. Publish the dashboard to Power BI service for online access and sharing.
+
+## Usage:
+- **Admin View:** Admins can access financial data across all users for comparison and analysis.
+- **User View:** Users can view and track their own financial data.
+- Use slicers and filters to view customized insights over different time periods.
+
+## Contribution:
+Feel free to contribute by opening issues or submitting pull requests. Please ensure that contributions follow the project’s coding and formatting guidelines.
+
+## License:
+This project is licensed under the MIT License – see the LICENSE file for details.
